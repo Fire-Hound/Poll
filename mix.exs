@@ -6,8 +6,11 @@ defmodule Poll.MixProject do
       app: :poll,
       version: "0.1.0",
       elixir: "~> 1.11",
-      start_permanent: Mix.env() == :dev,
-      deps: deps()
+      start_permanent: Mix.env() == :prod,
+      deps: deps(),
+      description: "A poll bot written in nostrum for discord",
+      package: package(),
+      source_url: "https://github.com/Fire-Hound/Poll"
     ]
   end
 
@@ -24,6 +27,13 @@ defmodule Poll.MixProject do
       {:nostrum, "~> 0.4"},
       {:ex_doc, "~> 0.23", only: :dev, runtime: false}
       # {:dep_from_git, git: "https://github.com/elixir-lang/my_dep.git", tag: "0.1.0"}
+    ]
+  end
+  defp package do
+    [
+      links: %{"GitHub" => "https://github.com/Fire-Hound/Poll"},
+      licenses: ["MIT"],
+      files: ~w(lib config .formatter.exs mix.exs README* readme* LICENSE*)
     ]
   end
 end
