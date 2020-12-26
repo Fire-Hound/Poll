@@ -1,0 +1,160 @@
+ %Nostrum.Struct.Message{
+  activity: nil,
+  application: nil,
+  attachments: [],
+  author: %Nostrum.Struct.User{
+    avatar: nil,
+    bot: true,
+    discriminator: "3964",
+    email: nil,
+    id: 792106320697884692,
+    mfa_enabled: nil,
+    public_flags: %Nostrum.Struct.User.Flags{
+      bug_hunter_level_1: false,
+      bug_hunter_level_2: false,
+      early_supporter: false,
+      hypesquad_balance: false,
+      hypesquad_bravery: false,
+      hypesquad_brilliance: false,
+      hypesquad_events: false,
+      partner: false,
+      staff: false,
+      system: false,
+      team_user: false,
+      verified_bot: false,
+      verified_developer: false
+    },
+    username: "Poll",
+    verified: nil
+  },
+  channel_id: 792115556777066500,
+  content: "",
+  edited_timestamp: nil,
+  embeds: [
+    %Nostrum.Struct.Embed{
+      author: nil,
+      color: nil,
+      description: nil,
+      fields: [
+        %Nostrum.Struct.Embed.Field{
+          inline: false,
+          name: ":regional_indicator_a:   Yes",
+          value: "-----------"
+        },
+        %Nostrum.Struct.Embed.Field{
+          inline: false,
+          name: ":regional_indicator_b:   No",
+          value: "-----------"
+        },
+        %Nostrum.Struct.Embed.Field{
+          inline: false,
+          name: ":regional_indicator_c:   I am delirious",
+          value: "-----------"
+        },
+        %Nostrum.Struct.Embed.Field{
+          inline: false,
+          name: ":regional_indicator_d:   Sdad",
+          value: "-----------"
+        },
+        %Nostrum.Struct.Embed.Field{
+          inline: false,
+          name: ":regional_indicator_e:   asdasd",
+          value: "-----------"
+        }
+      ],
+      footer: nil,
+      image: %Nostrum.Struct.Embed.Image{
+        height: 600,
+        proxy_url: "https://images-ext-1.discordapp.net/external/Rn24QvMyKZq2Ig02hqMQne8M9njKQdWZOsQ5Mxpej-k/%3Fc%3D%7Btype%3A%27pie%27%2Cdata%3A%7Blabels%3A%5B%27A%27%2C%27B%27%2C%27C%27%2C%27D%27%2C%27E%27%5D%2Cdatasets%3A%5B%7Bdata%3A%5B1%2C1%2C1%2C1%2C1%5D%7D%5D%7D%7D/https/quickchart.io/chart",
+        url: "https://quickchart.io/chart?c={type:'pie',data:{labels:['A','B','C','D','E'],datasets:[{data:[1,1,1,1,1]}]}}",
+        width: 1000
+      },
+      provider: nil,
+      thumbnail: nil,
+      timestamp: nil,
+      title: "Have I been working on this the whole night?",
+      type: "rich",
+      url: nil,
+      video: nil
+    }
+  ],
+  guild_id: nil,
+  id: 792467818876502117,
+  member: nil,
+  mention_everyone: false,
+  mention_roles: [],
+  mentions: [],
+  nonce: nil,
+  pinned: false,
+  reactions: [
+    %Nostrum.Struct.Message.Reaction{
+      count: 1,
+      emoji: %Nostrum.Struct.Emoji{
+        animated: nil,
+        id: nil,
+        managed: nil,
+        name: "≡ƒçª",
+        require_colons: nil,
+        roles: nil,
+        user: nil
+      },
+      me: true
+    },
+    %Nostrum.Struct.Message.Reaction{
+      count: 1,
+      emoji: %Nostrum.Struct.Emoji{
+        animated: nil,
+        id: nil,
+        managed: nil,
+        name: "≡ƒçº",
+        require_colons: nil,
+        roles: nil,
+        user: nil
+      },
+      me: true
+    },
+    %Nostrum.Struct.Message.Reaction{
+      count: 1,
+      emoji: %Nostrum.Struct.Emoji{
+        animated: nil,
+        id: nil,
+        managed: nil,
+        name: "≡ƒç¿",
+        require_colons: nil,
+        roles: nil,
+        user: nil
+      },
+      me: true
+    },
+    %Nostrum.Struct.Message.Reaction{
+      count: 2,
+      emoji: %Nostrum.Struct.Emoji{
+        animated: nil,
+        id: nil,
+        managed: nil,
+        name: "≡ƒç⌐",
+        require_colons: nil,
+        roles: nil,
+        user: nil
+      },
+      me: true
+    },
+    %Nostrum.Struct.Message.Reaction{
+      count: 1,
+      emoji: %Nostrum.Struct.Emoji{
+        animated: nil,
+        id: nil,
+        managed: nil,
+        name: "≡ƒç¬",
+        require_colons: nil,
+        roles: nil,
+        user: nil
+      },
+      me: true
+    }
+  ],
+  timestamp: "2020-12-26T19:04:11.360000+00:00",
+  tts: false,
+  type: 0,
+  webhook_id: nil
+}
