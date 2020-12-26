@@ -29,5 +29,9 @@ jobs:
           discordtokenpoll: ${{ secrets.discordtokenpoll }}   
     - name: Install dependencies
       run: mix deps.get
+      env:
+          discordtokenpoll: ${{ secrets.discordtokenpoll }} 
     - name: Run tests
       run: mix test
+      env:
+          discordtokenpoll: ${{ secrets.discordtokenpoll }} 
