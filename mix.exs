@@ -21,7 +21,8 @@ defmodule Poll.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:nostrum, "~> 0.4"}
+      {:nostrum, "~> 0.4"},
+      {:ex_doc, "~> 0.23", only: :dev, runtime: false}
       # {:dep_from_git, git: "https://github.com/elixir-lang/my_dep.git", tag: "0.1.0"}
     ]
   end
