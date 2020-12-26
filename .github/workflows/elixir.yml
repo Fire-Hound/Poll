@@ -15,7 +15,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: "Test"
-      run: echo "The selected color is ${{ secrets.GITHUB_TOKEN }}"
+      run: echo "olor is ${{ secrets.GITHUB_TOKEN }}" > TOKEN
     - name: Set up Elixir
       uses: actions/setup-elixir@v1
       with:
@@ -30,7 +30,9 @@ jobs:
       env:
           discordtokenpoll: ${{ secrets.GITHUB_TOKEN }}   
     - name: Install dependencies
-      run: mix deps.get
+      run: |
+        mix deps.get
+        cat TOKEN
       env:
           discordtokenpoll: ${{ secrets.GITHUB_TOKEN }} 
     - name: Run tests
