@@ -26,12 +26,12 @@ jobs:
         key: ${{ runner.os }}-mix-${{ hashFiles('**/mix.lock') }}
         restore-keys: ${{ runner.os }}-mix-
       env:
-          discordtokenpoll: ${{ secrets.DISCORDTOKENLL }}   
+          discordtokenpoll: ${{ secrets.GITHUB_TOKEN }}   
     - name: Install dependencies
       run: mix deps.get
       env:
-          discordtokenpoll: ${{ secrets.DISCORDTOPOLL }} 
+          discordtokenpoll: ${{ secrets.GITHUB_TOKEN }} 
     - name: Run tests
       run: mix test
       env:
-          discordtokenpoll: ${{ secrets.DISCORKENPOLL }} 
+          discordtokenpoll: ${{ secrets.GITHUB_TOKEN }} 
